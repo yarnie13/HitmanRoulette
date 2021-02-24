@@ -1,5 +1,5 @@
 import random
-maps = ['World of Tomorrow', 'Club 27', 'Freedom Fighters', 'Situs Inversus', 'Hokkaido', 'Nightcall', 'The Finish Line', 'A Silver Tongue', 'Another Life' ,'A Better Pill', 'The Ark Society', 'Golden Handshake', 'The Last Resort']
+maps = ['World of Tomorrow', 'Club 27', 'Freedom Fighters', 'Situs Inversus', 'Hokkaido', 'Nightcall', 'The Finish Line', 'A Silver Tongue', 'Another Life' ,'A Better Pill', 'The Ark Society', 'Golden Handshake', 'The Last Resort', 'On Top of The World', 'Death in the Family', 'Apex Predator', 'End of an Era', 'The Farewell']
 a = 1
 while a == 1:
     map = random.choice(maps)
@@ -27,7 +27,28 @@ while a == 1:
         print('Location: ', map)
         print('Target: ', target)
         print('Eliminiate by: ', method)
+        input()
     elif map == "Freedom Fighters":
         targets = ["Sean Rose", "Erza Berg", 'Penelope Graves', 'Maya Parvati']
         if target == 'Sean Rose':
             methods = ["Silent Assassin", "Silent Assassin Suit Only", "Suit Only", 'Sniper Assassin', 'Sniper Assassin Suit Only', 'Drowning', 'Accident', 'Striaght Shot (Headshot)', 'Poison', 'Piano Man', 'SMG', 'AR', 'Shotgun', 'Pistol']
+        elif target == 'Erza Berg':
+            methods = ["Silent Assassin", "Silent Assassin Suit Only", "Suit Only", 'Sniper Assassin', 'Sniper Assassin Suit Only', 'Drowning', 'Accident', 'Striaght Shot (Headshot)', 'Poison', 'Piano Man', 'SMG', 'AR', 'Shotgun', 'Pistol']
+        elif target == 'Penelope Graves':
+            methods = ["Silent Assassin", "Silent Assassin Suit Only", "Suit Only", 'Sniper Assassin', 'Sniper Assassin Suit Only', 'Drowning', 'Accident', 'Striaght Shot (Headshot)', 'Poison', 'Piano Man', 'SMG', 'AR', 'Shotgun', 'Pistol']
+        elif target == 'Maya Parvati':
+            methods = ["Silent Assassin", "Silent Assassin Suit Only", "Suit Only", 'Sniper Assassin', 'Sniper Assassin Suit Only', 'Drowning', 'Accident', 'Striaght Shot (Headshot)', 'Poison', 'Piano Man', 'SMG', 'AR', 'Shotgun', 'Pistol']
+        print('Location: ', map)
+        print('Target: ', target)
+        print('Eliminate by: ', method)
+        input()
+    elif map == 'Situs Inversus':
+        targets = ['Erich Soders', 'Yuki Yamazaki']
+        if target == 'Erich Soders':
+            methods = ["Silent Assassin", "Silent Assassin Suit Only", "Suit Only", 'Sniper Assassin', 'Sniper Assassin Suit Only', 'Drowning', 'Accident', 'Striaght Shot (Headshot)', 'Poison', 'Piano Man', 'SMG', 'AR', 'Shotgun', 'Pistol']
+        elif target == 'Yuki Yamazaki':
+            methods = ["Silent Assassin", "Silent Assassin Suit Only", "Suit Only", 'Sniper Assassin', 'Sniper Assassin Suit Only', 'Drowning', 'Accident', 'Striaght Shot (Headshot)', 'Poison', 'Piano Man', 'SMG', 'AR', 'Shotgun', 'Pistol']
+        print('Location: ', map)
+        print('Target: ', target)
+        print('Eliminate by: ', method)
+        input()
